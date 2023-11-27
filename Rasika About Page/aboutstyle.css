@@ -1,0 +1,67 @@
+body {
+    background-color:aquamarine;
+}
+.section1 {
+    width: 100%;
+    height:auto;
+}
+.hr {
+    margin:-20px;
+    padding:15px;
+    color:rgba(0, 149, 203, 0.955);
+    text-align:center;
+    font-family:'Sacramento',cursive;
+    font-style:italic;
+    font-weight:bold;
+    font-size:80px;
+}
+#desc {
+    padding:0;
+    text-align: center;
+    color: rgba(0, 149, 203, 0.955);
+    font-family:'Times New Roman', Times, serif;
+    font-style:normal;
+    text-decoration:underline;
+    font-size:30px;
+}
+.logo {
+    width:130px;
+    height:auto;
+}
+
+.section2 {
+    width:100%;
+    height:700px;
+    background-color: whitesmoke;
+    text-align:center;
+    font-size: 20px;
+    background-image: url("logoRasika.jpg");
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-position:center center;
+    background-blend-mode:overlay;
+}
+.hr1 {
+    display: block;
+    margin: 90px auto;
+    padding:50px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 22px;
+}
+.button {
+    width: 120px;
+    height:50px;
+    font-size:15px;
+    color: rgba(0, 149, 203, 0.955);
+    background-color: aquamarine;
+    border: 1px solid aquamarine;
+    border-radius: 5px;
+}
+.about {
+    line-height: 1.8;
+}
+.button:hover{
+    background-color: rgb(80, 230, 180);
+}

@@ -1,0 +1,161 @@
+body {
+    font-family: 'Sacramento', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light Gray background color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #333; /* Default text color */
+}
+
+header {
+    background-color: #E4F9F5; 
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #0e4429;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #66BFBF; /* White text color */
+}
+
+p {
+    font-size: 1.2em;
+    color: #66BFBF; /* White text color */
+}
+
+#contact-info {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff; /* White background color for the contact info section */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card {
+    text-align: center;
+    background-color: #ecf0f1; /* Light Gray background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: scale(1.05); /* Enlarge on hover */
+}
+
+.contact-card h2 {
+    font-size: 1.5em;
+    color: #333; /* Dark Gray text color */
+}
+
+.contact-card p {
+    font-size: 1.2em;
+    margin: 0;
+    color: #555; /* Slightly darker Gray text color */
+}
+
+#contact-form {
+    margin: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    font-size: 1em;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #66BFBF; /* Spotify Green button color */
+    color: #ecf0f1; /* White text color */
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #168f4b; /* Darker green on hover */
+}
+
+footer {
+    background-color: #66BFBF; /* Spotify Green background color */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: rgb(36, 25, 25); /* White text color */
+}
+/* Add this CSS at the end of your existing styles */
+
+#contact-form {
+    margin: 20px;
+    text-align: center;
+    padding-bottom: 60px; /* Adjust the bottom padding to accommodate the fixed footer */
+}
+
+footer {
+    background-color: #1db954; /* Spotify Green background color */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #ecf0f1; /* White text color */
+    z-index: 1000; /* Ensure the footer is on top */
+}
+
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff; /* White background color for the popup */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Ensure the popup is on top */
+}
+
+.popup-content {
+    text-align: center;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #555; /* Slightly darker Gray text color */
+}

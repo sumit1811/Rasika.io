@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="logintest2.css">
+    <link rel="shortcut icon" type="image" href="/img/logoRaiska.jpg" />
+    <title>Rasika Login</title>
+</head>
+<body>
+    <div class="container">
+        <h1>LOG IN TO RASIKA</h1>
+        <form id="login-form" onsubmit="return validateForm()">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username">
+                <span id="username-error" class="error"></span>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password">
+                <span id="password-error" class="error"></span>
+            </div>
+            <div class="form-group" onclick="return check()">
+                <input type="submit" value="Login" class="button">
+            </div>
+            <div class="sign_up"><span class="text">Don't have account?</span><a href="#" class="sign_uplink">Sign up for Rasika</a></div>
+        </form>
+    </div>
+    <script type="text/javascript" src="loginscript.js"></script>
+</body>

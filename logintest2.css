@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(199, 192, 192);
+    background-image: url("https://i.pinimg.com/originals/24/2b/4f/242b4f66b6d14b8a331c6e4289fe2ef5.jpg");
+    background-size: cover;
+}
+
+.container {
+    width: 400px;
+    margin: 300px auto;
+    padding: 90px 20px;
+    border: 2px solid rgb(11,19,32)/*#ccc*/;
+    background-color: rgba(11,19,32,0.935);/*#fff; 19,19,18 or 43,43,41*/
+    background-position: center;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 20px auto;
+    color: white/*#333*/;
+}
+
+.form-group {
+    margin: 10px auto;
+    padding: 20px;
+    font-size: 17px;
+}
+.sign_up{
+    margin: 10px 0;
+    padding: 20px;
+    text-align:center;
+}
+.text{
+    color:white;
+}
+.sign_uplink{
+    color: rgb(0, 174, 255);
+}
+a:hover{
+    color: rgb(181, 7, 181);
+}
+label {
+    display: block;
+    font-weight: bold;
+    color: white;
+}
+
+input {
+    display: block;
+    width: 94%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: white/*#fff*/;
+    cursor: pointer;
+}

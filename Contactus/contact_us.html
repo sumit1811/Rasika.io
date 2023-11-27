@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact_us_style.css">
+    <link rel="shortcut icon" type="image" href="/img/logoRaiska.jpg" />
+    <title>Contact Us - Rasika</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you!</p>
+    </header>
+
+    <section id="contact-info">
+        <div class="contact-card">
+            <h2>Email</h2>
+            <p><a href="mailto:info@rasika.com">info@rasika.com</a></p>
+        </div>
+
+        <div class="contact-card">
+            <h2>CEO</h2>
+            <p>Sumit Kumar Mehta</p>
+        </div>
+
+        <div class="contact-card">
+            <h2>Phone Number</h2>
+            <p>(123) 456-7890</p>
+        </div>
+    </section>
+
+    <section id="contact-form">
+        <form id="contactForm" action="submit_form.php" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" onclick="showPopup()">Submit</button>
+        </form>
+    </section>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <p>Thank you for your message! We'll get back to you soon.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Rasika. All rights reserved.</p>
+    </footer>
+
+    <script src="contact_us_script.js"></script>
+</body>
+</html>
