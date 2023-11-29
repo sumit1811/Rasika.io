@@ -43,17 +43,17 @@ document.addEventListener("DOMContentLoaded", function () {
     function performSearch(query) {
         // This is a placeholder. You should replace it with your actual data and logic.
         const mockResults = [
-            { name: "Yo Yo Honey Singh", image: "/artists/honeysingh/profile_honey.jpg", pageLink: "/artists/honeysingh/yo yo honey.html" },
-            { name: "Arijit Singh", image: "/artists/ArijitSingh/profile_Arijit.jpg", pageLink: "/artists/ArijitSingh/arijitsingh.html" },
-            { name: "Alan Walker", image: "/artists/Alan_walker/profile_alan.jpg", pageLink: "/artists/Alan_walker/Alan_walker.html" },
-            {name: "AKhil", image: "/artists/Akhil/profile_Akhil.jpg", pageLink: "/artists/Akhil/akhil.html"},
-            {name: "Justin Bieber", image: "/artists/justin bieber/Justin_Bieber_in_2015.jpg", pageLink: "/artists/justin bieber/justin.html"},
-            {name: "Jubin Nautiyal", image: "/artists/Jubin Nautiyal/profile_Jubin.jpg", pageLink: "/artists/Jubin Nautiyal/jubin.html"},
-            {name: "Diljit Dosanjh", image: "/artists/Diljit Dosanjh/profile_Diljit.jpg", pageLink: "/artists/Diljit Dosanjh/diljit.html"},
-            {name: "Neha Kakkar", image: "/artists/Neha Kakkar/images.jpg", pageLink: "/artists/Neha Kakkar/neha.html"},
-            {name: "Dhvani Bhanushali", image: "/artists/Dhvani Bhanushali/profife_dhavani.jpg", pageLink: "/artists/Dhvani Bhanushali/dhvani.html"}
+            { name: "Yo Yo Honey Singh", image: "/Rasika.io/artists/honeysingh/profile_honey.jpg", pageLink: "/Rasika.io/artists/honeysingh/yo yo honey.html" },
+            { name: "Arijit Singh", image: "/Rasika.io/artists/ArijitSingh/profile_Arijit.jpg", pageLink: "/Rasika.io/artists/ArijitSingh/arijitsingh.html" },
+            { name: "Alan Walker", image: "/Rasika.io/artists/Alan_walker/profile_alan.jpg", pageLink: "/Rasika.io/artists/Alan_walker/Alan_walker.html" },
+            {name: "AKhil", image: "/Rasika.io/artists/Akhil/profile_Akhil.jpg", pageLink: "/Rasika.io/artists/Akhil/akhil.html"},
+            {name: "Justin Bieber", image: "/Rasika.io/artists/justin bieber/Justin_Bieber_in_2015.jpg", pageLink: "/Rasika.io/artists/justin bieber/justin.html"},
+            {name: "Jubin Nautiyal", image: "/Rasika.io/artists/Jubin Nautiyal/profile_Jubin.jpg", pageLink: "/Rasika.io/artists/Jubin Nautiyal/jubin.html"},
+            {name: "Diljit Dosanjh", image: "/Rasika.io/artists/Diljit Dosanjh/profile_Diljit.jpg", pageLink: "/Rasika.io/artists/Diljit Dosanjh/diljit.html"},
+            {name: "Neha Kakkar", image: "/Rasika.io/artists/Neha Kakkar/images.jpg", pageLink: "/Rasika.io/artists/Neha Kakkar/neha.html"},
+            {name: "Dhvani Bhanushali", image: "/Rasika.io/artists/Dhvani Bhanushali/profife_dhavani.jpg", pageLink: "/Rasika.io/artists/Dhvani Bhanushali/dhvani.html"}
             
-            // Add more results as needed
+            
         ];
 
         return mockResults.filter(result =>
