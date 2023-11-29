@@ -301,9 +301,20 @@ left_scrolls.addEventListener('click', ()=>{
 right_scrolls.addEventListener('click', ()=>{
     item.scrollLeft += 330;
 })
-function Log_Out(){
-    if (confirm("Are you Sure to Log Out?")===true){
-        document.addEventListener("button",true);
-        return window.location.href("logintest1.html");
+document.getElementById("user").addEventListener("click", function (event) {
+    
+    event.preventDefault();
+
+    // Show a confirmation dialog
+    var confirmation = confirm("Are you sure you want to log out?");
+
+    // Check the user's choice
+    if (confirmation) {
+        
+        window.location.href = "logintest1.html";
+        alert("Logging out..."); 
+    } else {
+        
+        alert("Logout canceled.");
     }
-}
+});
