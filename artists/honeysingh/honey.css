@@ -1,9 +1,8 @@
 body {
     font-family: 'Arial', sans-serif;
-    margin: 0;
+    margin-bottom: 70px;
     padding: 0;
     background-color: #ff4d79; /* Pink background color */
-    background-image: url('spotify-pattern.png'); /* Replace with your pattern image */
     background-repeat: repeat;
     display: flex;
     flex-direction: column;
@@ -36,7 +35,7 @@ section {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 600px; /* Adjust the maximum width as needed */
+    max-width: 600px; 
     box-sizing: border-box;
 }
 
