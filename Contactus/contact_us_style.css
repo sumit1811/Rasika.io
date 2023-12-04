@@ -32,7 +32,7 @@ p {
 #contact-info {
     display: flex;
     justify-content: space-around;
-    background-color: #ffffff; /* White background color for the contact info section */
+    background-color: #ffffff; 
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
@@ -94,7 +94,7 @@ button {
     padding: 10px;
     font-size: 1em;
     cursor: pointer;
-    background-color: #66BFBF; /* Spotify Green button color */
+    background-color: #66BFBF; 
     color: #ecf0f1; /* White text color */
     border: none;
     border-radius: 5px;
@@ -106,7 +106,7 @@ button:hover {
 }
 
 footer {
-    background-color: #66BFBF; /* Spotify Green background color */
+    background-color: #66BFBF; 
     text-align: center;
     padding: 10px;
     position: fixed;
@@ -114,12 +114,12 @@ footer {
     width: 100%;
     color: rgb(36, 25, 25); /* White text color */
 }
-/* Add this CSS at the end of your existing styles */
+
 
 #contact-form {
     margin: 20px;
     text-align: center;
-    padding-bottom: 60px; /* Adjust the bottom padding to accommodate the fixed footer */
+    padding-bottom: 60px; 
 }
 
 footer {
@@ -130,7 +130,7 @@ footer {
     bottom: 0;
     width: 100%;
     color: #ecf0f1; /* White text color */
-    z-index: 1000; /* Ensure the footer is on top */
+    z-index: 1000; 
 }
 
 
