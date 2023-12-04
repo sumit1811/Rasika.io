@@ -27,20 +27,6 @@ h1 {
     padding: 20px;
     font-size: 17px;
 }
-.sign_up{
-    margin: 10px 0;
-    padding: 20px;
-    text-align:center;
-}
-.text{
-    color:white;
-}
-.sign_uplink{
-    color: rgb(0, 174, 255);
-}
-a:hover{
-    color: rgb(181, 7, 181);
-}
 label {
     display: block;
     font-weight: bold;
